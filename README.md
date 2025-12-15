@@ -18,10 +18,10 @@ Start powering up your fitness journey today with Powerlyze!
 Deployed on App Store from 2024-2025. To run, download the project folder, open in XCode, and run the simulation with an iPhone of your choice. 
 
 
-<img width="1206" height="2622" alt="IMG_5874" src="https://github.com/user-attachments/assets/a92083ac-75a0-488c-84ae-83f273118f20" />
+<img width="603" height="1311" alt="IMG_5874" src="https://github.com/user-attachments/assets/a92083ac-75a0-488c-84ae-83f273118f20" />
 
-<img width="1206" height="2622" alt="IMG_5875" src="https://github.com/user-attachments/assets/a25fe37d-763d-498c-a89d-073673c5f065" />
+<img width="603" height="1311" alt="IMG_5875" src="https://github.com/user-attachments/assets/a25fe37d-763d-498c-a89d-073673c5f065" />
 
-<img width="1206" height="2622" alt="IMG_5876" src="https://github.com/user-attachments/assets/7c00c2b4-49f3-4b8e-a3e3-fa83818c48c1" />
+<img width="603" height="1311" alt="IMG_5876" src="https://github.com/user-attachments/assets/7c00c2b4-49f3-4b8e-a3e3-fa83818c48c1" />
 
-<img width="1206" height="2622" alt="IMG_5878" src="https://github.com/user-attachments/assets/fd17dbff-0f08-4f8f-82bd-c11a0b78d1e5" />
+<img width="603" height="1311" alt="IMG_5878" src="https://github.com/user-attachments/assets/fd17dbff-0f08-4f8f-82bd-c11a0b78d1e5" />
