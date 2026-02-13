@@ -9,11 +9,12 @@ import SwiftUI
 
 @main
 struct PowerlyzeApp: App {
-    @EnvironmentObject var usermodel: UserModel
+    @StateObject private var userViewModel = UserViewModel()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(UserModel())
+                .environmentObject(userViewModel)
         }
     }
 }

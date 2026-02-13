@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1320AEF2F3ECFAD00E01D63 /* EditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1320AEB2F3ECFAD00E01D63 /* EditViewModel.swift */; };
+		B1320AF02F3ECFAD00E01D63 /* InputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1320AEC2F3ECFAD00E01D63 /* InputViewModel.swift */; };
+		B1320AF12F3ECFAD00E01D63 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1320AED2F3ECFAD00E01D63 /* UserViewModel.swift */; };
+		B1320AF52F3ED01200E01D63 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1320AF22F3ED01200E01D63 /* Constants.swift */; };
+		B1320AF62F3ED01200E01D63 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1320AF32F3ED01200E01D63 /* View+Extensions.swift */; };
+		B18C04D52CC066AB003C5369 /* PopupTextView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18C04D42CC066AB003C5369 /* PopupTextView2.swift */; };
+		B18C04D72CC069E3003C5369 /* TermsOfServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18C04D62CC069E3003C5369 /* TermsOfServiceView.swift */; };
 		B18E35CE2C80206D00B7A9F4 /* PowerlyzeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18E35CD2C80206D00B7A9F4 /* PowerlyzeApp.swift */; };
 		B18E35D02C80206D00B7A9F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18E35CF2C80206D00B7A9F4 /* ContentView.swift */; };
 		B18E35D22C80206F00B7A9F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18E35D12C80206F00B7A9F4 /* Assets.xcassets */; };
@@ -26,6 +33,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1320AEB2F3ECFAD00E01D63 /* EditViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewModel.swift; sourceTree = "<group>"; };
+		B1320AEC2F3ECFAD00E01D63 /* InputViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewModel.swift; sourceTree = "<group>"; };
+		B1320AED2F3ECFAD00E01D63 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		B1320AF22F3ED01200E01D63 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B1320AF32F3ED01200E01D63 /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		B18C04D42CC066AB003C5369 /* PopupTextView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupTextView2.swift; sourceTree = "<group>"; };
+		B18C04D62CC069E3003C5369 /* TermsOfServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceView.swift; sourceTree = "<group>"; };
 		B18E35CA2C80206D00B7A9F4 /* Powerlyze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Powerlyze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18E35CD2C80206D00B7A9F4 /* PowerlyzeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerlyzeApp.swift; sourceTree = "<group>"; };
 		B18E35CF2C80206D00B7A9F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +70,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B1320AEE2F3ECFAD00E01D63 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B1320AEB2F3ECFAD00E01D63 /* EditViewModel.swift */,
+				B1320AEC2F3ECFAD00E01D63 /* InputViewModel.swift */,
+				B1320AED2F3ECFAD00E01D63 /* UserViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B1320AF42F3ED01200E01D63 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B1320AF22F3ED01200E01D63 /* Constants.swift */,
+				B1320AF32F3ED01200E01D63 /* View+Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		B18E35C12C80206D00B7A9F4 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +108,8 @@
 		B18E35CC2C80206D00B7A9F4 /* Powerlyze */ = {
 			isa = PBXGroup;
 			children = (
+				B1320AF42F3ED01200E01D63 /* Utilities */,
+				B1320AEE2F3ECFAD00E01D63 /* ViewModels */,
 				B18E35E32C81ED7F00B7A9F4 /* Models */,
 				B18E35E22C81ED7100B7A9F4 /* Views */,
 				B18E35CD2C80206D00B7A9F4 /* PowerlyzeApp.swift */,
@@ -104,9 +139,11 @@
 				B18E35F62CAA624100B7A9F4 /* VariableTextView.swift */,
 				B18E35F82CAF9BA200B7A9F4 /* SaveView.swift */,
 				B1FCE8412CB08F470048CE72 /* PopupTextView.swift */,
+				B18C04D42CC066AB003C5369 /* PopupTextView2.swift */,
 				B1FCE8472CB257AA0048CE72 /* EditView.swift */,
 				B1FCE8492CB6FDD60048CE72 /* ResultsView2.swift */,
 				B1FCE84B2CB704AC0048CE72 /* SaveView2.swift */,
+				B18C04D62CC069E3003C5369 /* TermsOfServiceView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,16 +230,23 @@
 				B1FCE8422CB08F470048CE72 /* PopupTextView.swift in Sources */,
 				B1FCE8482CB257AA0048CE72 /* EditView.swift in Sources */,
 				B18E35E72C894CFE00B7A9F4 /* InputView.swift in Sources */,
+				B1320AEF2F3ECFAD00E01D63 /* EditViewModel.swift in Sources */,
 				B1FCE84C2CB704AC0048CE72 /* SaveView2.swift in Sources */,
 				B18E35F32CA795DD00B7A9F4 /* ResultsView.swift in Sources */,
+				B18C04D52CC066AB003C5369 /* PopupTextView2.swift in Sources */,
 				B18E35EB2C89582400B7A9F4 /* LeaderboardsView.swift in Sources */,
 				B18E35D02C80206D00B7A9F4 /* ContentView.swift in Sources */,
+				B1320AF62F3ED01200E01D63 /* View+Extensions.swift in Sources */,
 				B18E35ED2C89587100B7A9F4 /* FAQsView.swift in Sources */,
 				B18E35CE2C80206D00B7A9F4 /* PowerlyzeApp.swift in Sources */,
 				B18E35F92CAF9BA200B7A9F4 /* SaveView.swift in Sources */,
+				B1320AF12F3ECFAD00E01D63 /* UserViewModel.swift in Sources */,
 				B18E35E92C89576D00B7A9F4 /* UsersView.swift in Sources */,
+				B1320AF52F3ED01200E01D63 /* Constants.swift in Sources */,
 				B18E35EF2C9A8E6500B7A9F4 /* Users.swift in Sources */,
+				B1320AF02F3ECFAD00E01D63 /* InputViewModel.swift in Sources */,
 				B1FCE84A2CB6FDD60048CE72 /* ResultsView2.swift in Sources */,
+				B18C04D72CC069E3003C5369 /* TermsOfServiceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,23 +380,28 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Powerlyze/Preview Content\"";
+				DEVELOPMENT_TEAM = BP2R2NZY9T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-akira-lonske-.Powerlyze";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -364,23 +413,28 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Powerlyze/Preview Content\"";
+				DEVELOPMENT_TEAM = BP2R2NZY9T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-akira-lonske-.Powerlyze";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
